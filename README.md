@@ -1,31 +1,10 @@
-<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>E-Commerce Conversion Analysis — README</title>
-  <style>
-    body { font-family: Arial, Helvetica, sans-serif; color: #222; line-height: 1.5; padding: 24px; max-width: 900px; margin: auto; }
-    h1 { margin-bottom: 6px; font-size: 26px; }
-    h2 { margin-top: 20px; font-size: 18px; color: #111; }
-    p { margin: 8px 0; }
-    ul { margin: 6px 0 12px 20px; }
-    table { border-collapse: collapse; margin: 8px 0; width: 100%; max-width: 700px; }
-    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-    th { background: #f5f5f5; }
-    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
-    .kpi { display:inline-block; padding:6px 10px; background:#f0f8ff; margin:6px 6px 6px 0; border-radius:6px; }
-    footer { margin-top: 28px; font-size: 13px; color: #555; }
-  </style>
-</head>
 <body>
-  <h1>E-Commerce Conversion Analysis</h1>
-  <p><strong>Simple portfolio README</strong> for the SQL-based customer journey project.</p>
-
-  <h2>Project Summary</h2>
+  <h1>E-Commerce Project SQL</h1>
+<h2>Project Summary</h2>
   <p>
     Analyze session-level e-commerce data to understand conversion drivers, funnel drop-offs,
-    and user behavior. Analysis is done in <strong>MySQL</strong> and visualized in <strong>Excel</strong>.
+    and user behavior. Analysis is done in <strong>MySQL</strong>.
   </p>
 
   <h2>Dataset (high-level)</h2>
@@ -74,11 +53,9 @@ ecommerce-conversion-analysis/
 │  ├─ 03_session_summary.sql
 │  └─ ...
 ├─ datasets/
-│  └─ customer_journey.csv
-├─ visuals/
-│  └─ funnel_chart.png
+│  └─ ecom.csv
 └─ report/
-   └─ Ecommerce_Conversion_Analysis_Tuhin_Basu.pdf
+   └─ Ecommerce_Conversion_Analysis.pdf
   </code></pre>
 
   <h2>How to run (quick)</h2>
@@ -92,12 +69,11 @@ ecommerce-conversion-analysis/
   <h2>Skills Demonstrated</h2>
   <ul>
     <li>SQL data modeling, joins, aggregations, CTEs, window functions</li>
-    <li>Funnel analysis, time-series aggregation, segmentation</li>
     <li>Translating analysis into business recommendations</li>
   </ul>
 
   <footer>
-    <p>Author: <strong>Tuhin Basu</strong> &nbsp;|&nbsp; Contact: add your email or LinkedIn</p>
+    <p>Author: <strong>Tuhin Basu</strong> &nbsp;|&nbsp; Contact: https://www.linkedin.com/in/tuhinbasu | tuhinbasu97@gmail.com</p>
   </footer>
 </body>
 </html>
