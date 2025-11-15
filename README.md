@@ -1,6 +1,6 @@
 <html lang="en">
 <body>
-  <h1>E-Commerce Project SQL</h1>
+  <h1>E-Commerce Conversion Analysis SQL</h1>
 <h2>Project Summary</h2>
   <p>
     Analyze session-level e-commerce data to understand conversion drivers, funnel drop-offs,
